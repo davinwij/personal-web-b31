@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@800&family=Open+Sans:wght@300;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  display: flex;
+  background: #f4f3f3;
+  height: 7vh;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+  flex: 50%;
+}
+
+nav div.left-side {
+  padding-left: 90px;
+}
+
+nav div.right-side {
+  padding-right: 90px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul {
+  list-style-type: none;
+  margin-left: 40px;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 40px;
+}
+
+nav ul li a {
+  color: #000000;
+  text-decoration: none;
+}
+
+nav ul li a.list-active {
+  color: #ec4d37;
+  font-weight: 700;
+}
+
+nav .right-side a {
+  font-size: 15px;
+  padding: 8px 20px;
+  background-color: #ec4d37;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+
+nav div.left-side {
+  padding-left: 90px;
+}
+
+.card {
+  border: 1px solid 0000033;
+  width: 25%;
+  margin-top: 100px;
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px;
+  display: flex;
+  flex-direction: column;
+  flex: 40%;
+  align-content: center;
+}
+
+.card .content {
+  align-self: center;
+}
+
+.card .content table {
+  width: 80%;
+  border: 2px solid rgb(161, 156, 156);
+}
+
+.card .content table tr th {
+  font-weight: 700;
+  padding: 5px;
+}
+
+.card .content table tr th {
+  font-weight: 400;
+  padding: 5px;
+  text-align: center;
+}
+
+.card img {
+  width: 80%;
+  border-radius: 10%;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.btn-detail {
+  background-color: rgb(61, 61, 61);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  margin-top: 12px;
+  color: white;
+  padding: 7px 30px;
+  border-radius: 90px;
+  border: 0px;
+  cursor: pointer;
+  transition: 0.5s;
+  box-shadow: 0 5px rgb(168, 168, 168);
+}
+
+.btn-detail:hover {
+  background-color: rgb(211, 211, 211);
+  color: black;
+}
+
+.btn-detail:active {
+  transition: 0.1s;
+  background-color: rgb(211, 211, 211);
+  box-shadow: 0 1px rgb(61, 61, 61);
+  transform: translateY(4px);
+}
+
+.lo {
+  width: 30px;
+  padding: 10px;
+  margin-top: 15px;
+  margin-right: 20px;
+}
+
+.download {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  float: left;
+  font-size: 15px;
+  margin-top: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.line-4 img {
+  width: 15px;
+  margin-top: 10px;
+  margin-right: 270px;
+}
+
+.card-profile {
+  width: 220px;
+  height: 300px;
+  border: 0;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+  box-sizing: border-box;
+  overflow: hidden;
+  box-shadow: 0px 0px 8px #999;
+}
+
+.card-profile img {
+  width: 140%;
+  align-content: center;
+  margin-right: 60px;
+}
+
+.container {
+  margin-bottom: 20px;
+}
+
+.container p {
+  line-height: 0.005;
+}

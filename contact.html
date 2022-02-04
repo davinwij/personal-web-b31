@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Contact Me</title>
+    </head>
+
+    <body>
+        <center>
+            <div style="margin-top: 100px; width: 350px; text-align: left;">
+                <form action="">
+                    <div>
+                        <label for="name" style="
+                            font-weight: bold;
+                            font-size: 20px;
+                        ">Name</label>
+                        <input type="text" required id="name" placeholder="Input your name" style="
+                            width: 100%;
+                            box-sizing: border-box;
+                            padding: 8px;
+                            margin-top: 5px;
+                            margin-bottom: 20px;
+                            border-radius: 5px;
+                            border: 1px solid #808080;        
+                            background-color: #EEEDE7;                  
+                        ">
+                    </div>
+
+                    <div>
+                        <label for="phone" style="
+                        font-weight: bold;
+                        font-size: 20px;
+                    ">Phone</label>
+                        <input type="text" id="phone" placeholder="Input phone number" style="
+                            width: 100%;
+                            box-sizing: border-box;
+                            padding: 8px;
+                            margin-top: 5px;
+                            margin-bottom: 20px;
+                            border-radius: 5px;
+                            border: 1px solid #808080;        
+                            background-color: #EEEDE7;
+                        ">                                        
+                    </div>
+
+                    <div>
+                        <label for="email" style="
+                        font-weight: bold;
+                        font-size: 20px;
+                    ">Email</label>
+                        <input type="email" id="email" placeholder="Input your email" style="
+                        width: 100%;
+                        box-sizing: border-box;
+                        padding: 8px;
+                        margin-top: 5px;
+                        margin-bottom: 20px;
+                        border-radius: 5px;
+                        border: 1px solid #808080;        
+                        background-color: #EEEDE7;
+                    ">
+                    </div>
+        
+                    <div>
+                        <label for="subject" style="
+                        font-weight: bold;
+                        font-size: 20px;
+                    ">Subject</label>
+                        <select id="subject" style="
+                        width: 100%;
+                        box-sizing: border-box;
+                        padding: 8px;
+                        margin-top: 5px;
+                        margin-bottom: 20px;
+                        border-radius: 5px;
+                        border: 1px solid #808080;        
+                        background-color: #EEEDE7;
+                    ">
+                            <option value="frontend">Front-End</option>
+                            <option value="backend">Back-End</option>
+                            <option value="fullstack">Fullstack</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="message" style="
+                        font-weight: bold;
+                        font-size: 20px;">Message</label>
+                        <textarea name="" id="message" cols="30" rows="10" style="
+                        width: 100%;
+                        box-sizing: border-box;
+                        padding: 8px;
+                        margin-top: 5px;
+                        margin-bottom: 20px;
+                        border-radius: 5px;
+                        border: 1px solid #808080;        
+                        background-color: #EEEDE7;
+                        resize: none;
+                    "></textarea>
+                    </div>
+        
+                    <button type="button" style="
+                        border-radius: 8px;
+                        padding: 8px 30px;
+                        background-color: orange;
+                        border: 1px solid yellow;
+                        cursor: pointer;
+                    " onclick="showData()">        
+                        Submit
+                    </button>
+                </form>
+            </div>
+        </center>
+    </body>
+    <script src="form.js"></script>        
+</html>
